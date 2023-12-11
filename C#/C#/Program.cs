@@ -27,12 +27,5 @@ namespace C_
             An assembly is a file (DLL or EXE) that contains one or more namespaces and classes. An EXE file represents a program that can be executed. 
             A DLL is a file that includes code that can be re-used across different programs.
          */
-
-        /*
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World");
-        }
-        */
     }
 }
