@@ -12,6 +12,9 @@ namespace C_
 
         static void Main(string[] args)
         {
+
+            //Primitive types are all structures. Not class
+
             //Variable: a name given to a storage location in memory
             //Constant: an immutable value
 
@@ -33,7 +36,6 @@ namespace C_
             Console.WriteLine(isWorking);
             */
 
-            // cw + TAB -> shortcut of Console.WriteLine()
 
             /*
             Instead of explicitly specify data type, 'var' can be used and let the C# compiler detect data type of variables

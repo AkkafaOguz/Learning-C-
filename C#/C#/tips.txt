@@ -1,0 +1,2 @@
+Console.WriteLine() -> by default always calls ToString() methods on any valeus that you passed
+Console.WriteLine(example) == Console.WriteLine(example.ToString())
