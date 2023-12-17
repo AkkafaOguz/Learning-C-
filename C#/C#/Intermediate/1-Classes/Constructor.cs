@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_
+namespace C_.Intermediate._1_Classes
 {
-    internal class Shortcuts
+    internal class Constructor
     {
-        // cw + TAB -> shortcut of Console.WriteLine()
-        // ctrl + TAB -> switch between open windows
+        // Signatures of methods: return type, name, types & numbers of its parameters.
+
         // 'ctor' short way of creating constructor
+
     }
 }

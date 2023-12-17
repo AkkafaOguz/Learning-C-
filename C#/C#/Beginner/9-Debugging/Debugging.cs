@@ -16,11 +16,6 @@ namespace C_.Debugging
         // 'Shift+F5' -> Stop debug mode
         // 'F5 after starting debug mode' -> continue until the next break point
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello!");
-        }
-
         // Defensive Programming -> To check the input first before doing any processing
         // Call Stack -> Shows the order of methods that we've called from the moment the application run up to where you're now
         // Autos and Locals Windows
