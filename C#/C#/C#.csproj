@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assesment Project\Movement.cs" />
     <Compile Include="Beginner\5-Arrays&amp;Lists\Arrays&amp;Lists.cs" />
     <Compile Include="Beginner\4-ControlFlow\ControlFlow.cs" />
     <Compile Include="Beginner\7-Dates\Dates.cs" />
@@ -54,6 +55,9 @@
     <Compile Include="Beginner\1-Program\Program.cs" />
     <Compile Include="Intermediate\1-Classes\Classes.cs" />
     <Compile Include="Intermediate\1-Classes\Constructor.cs" />
+    <Compile Include="Intermediate\1-Classes\Properties.cs" />
+    <Compile Include="Intermediate\2-AssociationBetweenClasses\Class.cs" />
+    <Compile Include="Intermediate\3-Inheritance\Inheritance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shortcuts.cs" />
     <Compile Include="Beginner\6-Text\StringUtility.cs" />
