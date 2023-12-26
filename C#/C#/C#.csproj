@@ -44,25 +44,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Beginner\5-Arrays&amp;Lists\Arrays&amp;Lists.cs" />
-    <Compile Include="Beginner\4-ControlFlow\ControlFlow.cs" />
-    <Compile Include="Beginner\7-Dates\Dates.cs" />
-    <Compile Include="Beginner\9-Debugging\Debugging.cs" />
-    <Compile Include="Beginner\8-Files\Files.cs" />
-    <Compile Include="Beginner\3-NonPrimitiveTypes\NonPrimitiveTypes.cs" />
-    <Compile Include="Beginner\2-PrimitiveTypes&amp;Expressions\PrimitiveTypesAndExpressions.cs" />
-    <Compile Include="Beginner\1-Program\Program.cs" />
-    <Compile Include="Intermediate\1-Classes\Classes.cs" />
-    <Compile Include="Intermediate\1-Classes\Constructor.cs" />
-    <Compile Include="Intermediate\1-Classes\Properties.cs" />
-    <Compile Include="Intermediate\2-AssociationBetweenClasses\Class.cs" />
-    <Compile Include="Intermediate\3-Inheritance\Inheritance.cs" />
-    <Compile Include="Intermediate\4-Polymorphism\Overriding.cs" />
-    <Compile Include="Intermediate\5-Interface\Interface.cs" />
+    <Compile Include="1-Beginner\5-Arrays&amp;Lists\Arrays&amp;Lists.cs" />
+    <Compile Include="1-Beginner\4-ControlFlow\ControlFlow.cs" />
+    <Compile Include="1-Beginner\7-Dates\Dates.cs" />
+    <Compile Include="1-Beginner\9-Debugging\Debugging.cs" />
+    <Compile Include="1-Beginner\8-Files\Files.cs" />
+    <Compile Include="1-Beginner\3-NonPrimitiveTypes\NonPrimitiveTypes.cs" />
+    <Compile Include="1-Beginner\2-PrimitiveTypes&amp;Expressions\PrimitiveTypesAndExpressions.cs" />
+    <Compile Include="1-Beginner\1-Program\Program.cs" />
+    <Compile Include="2-Intermediate\1-Classes\Classes.cs" />
+    <Compile Include="2-Intermediate\1-Classes\Constructor.cs" />
+    <Compile Include="2-Intermediate\1-Classes\Properties.cs" />
+    <Compile Include="2-Intermediate\2-AssociationBetweenClasses\Class.cs" />
+    <Compile Include="2-Intermediate\3-Inheritance\Inheritance.cs" />
+    <Compile Include="2-Intermediate\4-Polymorphism\Overriding.cs" />
+    <Compile Include="2-Intermediate\5-Interface\Interface.cs" />
+    <Compile Include="3-C# Fundamentals\Class.cs" />
+    <Compile Include="3-C# Fundamentals\String.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shortcuts.cs" />
-    <Compile Include="Beginner\6-Text\StringUtility.cs" />
-    <Compile Include="Beginner\6-Text\Text.cs" />
+    <Compile Include="1-Beginner\6-Text\StringUtility.cs" />
+    <Compile Include="1-Beginner\6-Text\Text.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
