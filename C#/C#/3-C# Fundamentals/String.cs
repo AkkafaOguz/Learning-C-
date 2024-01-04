@@ -8,53 +8,60 @@ namespace C_._3_C__Fundamentals
 {
     internal class String
     {
-        static void Main(string[] args)
-        {
-            var name = "Oguz";
-            var age = 28;
+        //static void Main(string[] args)
+        //{
+        //    var name = "Oguz";
+        //    var age = 28;
 
-            // String Format
+        //    // String Format
 
-            var sentence = string.Format("Hi {0}, you're {1} years old.", name, age);
-            Console.WriteLine(sentence);
+        //    var sentence = string.Format("Hi {0}, you're {1} years old.", name, age);
+        //    Console.WriteLine(sentence);
 
-            // String Interpolation
+        //    // String Interpolation
 
-            var sentence2 = $"Hi {name}, you're {age} years old.";
-            Console.WriteLine(sentence2);
+        //    var sentence2 = $"Hi {name}, you're {age} years old.";
+        //    Console.WriteLine(sentence2);
 
-            // Verbatim Strings
+        //    // Verbatim Strings
 
-            var path = "C:\\Documents\\readme.txt";
-            var path2 = @"C\Documents\readme.txt";  // <- Verbatim strings
+        //    var path = "C:\\Documents\\readme.txt";
+        //    var path2 = @"C\Documents\readme.txt";  // <- Verbatim strings
 
-            // -> \" for double quote
+        //    // -> \" for double quote
 
-            var example = "This is \"the best\" part";
-            Console.WriteLine(example);
+        //    var example = "This is \"the best\" part";
+        //    Console.WriteLine(example);
 
-            // Try Parse
+        //    // Try Parse
 
-            var tryPar = "x";
-            int tryParNumber;
-            Console.WriteLine(int.TryParse(tryPar, out tryParNumber));
+        //    var tryPar = "x";
+        //    int tryParNumber;
+        //    Console.WriteLine(int.TryParse(tryPar, out tryParNumber));
 
-            // Method parameters (ref)
+        //    // Method parameters (ref)
 
-            var first = 2;
-            var second = 3;
-            var third = 4; // <- must be initialized 
-            checkParametersRef(first,second,ref third);
-            Console.WriteLine("first => " + first);
-            Console.WriteLine("second => " + second);
-            Console.WriteLine("third => " + third);
+        //    var first = 2;
+        //    var second = 3;
+        //    var third = 4; // <- must be initialized 
+        //    checkParametersRef(first,second,ref third);
+        //    Console.WriteLine("first => " + first);
+        //    Console.WriteLine("second => " + second);
+        //    Console.WriteLine("third => " + third);
 
-            // Method parameters (out)
-            int outKey;
-            checkParametersOut(first,out outKey);
-            Console.WriteLine("outKey =>" + outKey);
+        //    // Method parameters (out)
 
-        }
+        //    int outKey;
+        //    checkParametersOut(first,out outKey);
+        //    Console.WriteLine("outKey =>" + outKey);
+
+        //    // Null
+
+        //    // -> ?? it's for using default value if value is null
+        //    // e.g -> int a = value ?? 2;
+        //    nullCheck(1, 2);
+
+        //}
 
         // Method parameters (ref)
         private static void checkParametersRef(int a, int b)
@@ -77,5 +84,12 @@ namespace C_._3_C__Fundamentals
             a++;
             b++;
         }
+
+        private static void nullCheck(int a, int? b)
+        {
+            int c = a;
+            int d = b ?? 2;
+        }
+
     }
 }

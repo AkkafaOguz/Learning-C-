@@ -60,6 +60,7 @@
     <Compile Include="2-Intermediate\4-Polymorphism\Overriding.cs" />
     <Compile Include="2-Intermediate\5-Interface\Interface.cs" />
     <Compile Include="3-C# Fundamentals\Class.cs" />
+    <Compile Include="3-C# Fundamentals\Debugging.cs" />
     <Compile Include="3-C# Fundamentals\String.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shortcuts.cs" />
@@ -72,6 +73,8 @@
   <ItemGroup>
     <Content Include="tips.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="4-Prantitioner\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
